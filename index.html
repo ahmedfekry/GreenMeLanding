@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GreenMe – Seamless journey towards climate financing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="header__logo" aria-label="GreenMe home">
+        <img src="assets/logo-header.svg" alt="GreenMe" width="59" height="60">
+      </a>
+      <nav class="menu" aria-label="Main">
+        <a href="index.html" class="is-active">Home</a>
+        <a href="#about">About GreenMe</a>
+        <a href="#services">Services</a>
+        <a href="#platform">The Platform</a>
+        <a href="#teams">Teams</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+      <a href="#contact" class="btn btn--lime">TRY A DEMO</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- INTRO -->
+    <section class="intro">
+      <div class="container">
+        <div class="intro__content">
+          <h1>Turn your clean energy project in Egypt into a <span>bankable proposal</span></h1>
+          <p>GreenMe helps businesses and developers originate, assess and structure solar and energy efficiency projects to international standards.</p>
+          <div class="intro__actions">
+            <a href="#contact" class="btn btn--lime">Request an assessment</a>
+            <a href="https://wa.me/971501712031" class="btn btn--outline" target="_blank" rel="noopener">Talk to an advisor on WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SAVINGS ESTIMATOR -->
+    <section class="section savings" id="savings">
+      <div class="container savings__inner">
+        <div class="description description--center">
+          <span class="tag"><img src="assets/icon-subheading-a.svg" alt="" width="22" height="17">Savings Estimator</span>
+          <h2>Estimate your <em>savings</em></h2>
+          <p class="text">Move the slider to see what a typical energy efficiency project could save your business.</p>
+        </div>
+
+        <div class="calc">
+          <div class="calc__head">
+            <label for="bill">Monthly electricity bill</label>
+            <output id="bill-out" for="bill">150,000 EGP</output>
+          </div>
+          <input class="calc__range" id="bill" type="range" min="10000" max="1000000" step="10000" value="150000">
+          <div class="calc__results">
+            <div class="calc__result">
+              <strong id="save-year">540,000 EGP</strong>
+              <span>saved per year</span>
+            </div>
+            <div class="calc__result">
+              <strong id="save-decade">5,400,000 EGP</strong>
+              <span>saved over 10 years</span>
+            </div>
+          </div>
+          <p class="calc__note">Illustrative estimate assuming about a 30% cut in your bill. A full assessment gives your real figures.</p>
+          <a href="#contact" class="btn btn--green">Request an assessment</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT US -->
+    <section class="section about" id="about">
+      <div class="container split">
+        <div class="about__images">
+          <img class="about__img about__img--tall" src="assets/about-1.png" alt="Tree growing on coins beside a glass globe">
+          <div class="about__col">
+            <img class="about__img about__img--a" src="assets/about-2.png" alt="Tree growing on a stack of coins">
+            <img class="about__img about__img--b" src="assets/about-3.png" alt="Hand holding a seedling above coins">
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="description">
+            <span class="tag"><img src="assets/icon-subheading-a.svg" alt="" width="22" height="17">About Us</span>
+            <h2>About <em>GreenMe</em></h2>
+            <p class="text">GreenMe is an AI-powered climate finance platform solving the lack of effective tools to access &amp; financially and technically asses climate funds.</p>
+          </div>
+
+          <div class="cards">
+            <div class="card">
+              <span class="card__icon"><img src="assets/mission.svg" alt="" width="44" height="46"></span>
+              <span class="card__label">Our Mission</span>
+            </div>
+            <div class="card">
+              <span class="card__icon"><img src="assets/vision.svg" alt="" width="42" height="42"></span>
+              <span class="card__label">Our Vision</span>
+            </div>
+          </div>
+
+          <a href="#" class="btn btn--green">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT WE DO -->
+    <section class="section section--light what" id="services">
+      <div class="container split">
+        <div class="what__content">
+          <div class="description">
+            <span class="tag tag--white"><img src="assets/icon-subheading-b.svg" alt="" width="22" height="17">What We Do?</span>
+            <h2><em>Helping</em> our clients reduce their energy consumption, costs, and environmental impact</h2>
+          </div>
+
+          <div class="services">
+            <p class="services__lead">Three services that take a project from idea to a package lenders can evaluate.</p>
+            <article class="service">
+              <span class="service__num">1</span>
+              <div>
+                <h3>Origination</h3>
+                <p>We identify and register solar and efficiency projects from businesses, developers and installers across Egypt.</p>
+              </div>
+            </article>
+            <article class="service">
+              <span class="service__num">2</span>
+              <div>
+                <h3>Assessment</h3>
+                <p>Technical, energy and financial review of your site, with ROI and payback, plus ESG risk screening.</p>
+              </div>
+            </article>
+            <article class="service">
+              <span class="service__num">3</span>
+              <div>
+                <h3>Structuring</h3>
+                <p>We shape the project into a clear investment package with the documents and metrics lenders ask for.</p>
+              </div>
+            </article>
+          </div>
+
+          <a href="#contact" class="btn btn--green">Request an assessment</a>
+        </div>
+
+        <div class="what__grid">
+          <img src="assets/offer-1.png" alt="">
+          <img src="assets/offer-2.png" alt="">
+          <img src="assets/offer-3.png" alt="">
+          <img src="assets/offer-4.png" alt="">
+          <div class="what__badge">
+            <img class="what__badge-bg" src="assets/offer-overlay.png" alt="">
+            <div class="what__badge-text">
+              <span>What Do We</span>
+              <strong>Offer?</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR INNOVATION -->
+    <section class="section innovation" id="platform">
+      <div class="container split">
+        <div class="innovation__image">
+          <img src="assets/platform.png" alt="Hand holding a phone showing the GreenMe app">
+        </div>
+
+        <div class="content">
+          <div class="description">
+            <span class="tag"><img src="assets/icon-subheading-a.svg" alt="" width="22" height="17">Our Innovation</span>
+            <h2>What is <em>GreenMe</em> Platform?</h2>
+            <p class="text">Our platform includes tendering &amp; energy auditing by industry, ESCO &amp; facility services and optimizing the client’s profitability. GreenMe aims to shorten the banking process involved in providing sustainable financing products from over 1.5 months to less than two weeks.</p>
+          </div>
+          <a href="#" class="btn btn--green">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEO -->
+    <section class="video">
+      <div class="video__body">
+        <button class="video__play" type="button" aria-label="Play video">
+          <span class="video__play-inner"><img src="assets/play.svg" alt="" width="30" height="34"></span>
+        </button>
+        <h2><span class="light">Watch Video About</span><br><em>GreenMe</em> Platform</h2>
+        <p>you would find all the necessary information about our platform.<br>GreenMe is Making Green Finance</p>
+      </div>
+    </section>
+
+    <!-- CLIENTS & REFERENCES -->
+    <section class="section logos" id="teams">
+      <div class="container logos__inner">
+        <div class="description description--center">
+          <span class="tag"><img src="assets/icon-subheading-a.svg" alt="" width="22" height="17">Success Partners</span>
+          <h2>Clients &amp; <em>References</em></h2>
+          <p class="text">Our clients and partners reflect our commitment to excellence, reliability, and successful project delivery</p>
+        </div>
+        <div class="logos__row">
+          <div class="logo-box"><img src="assets/client-1.png" alt="Client logo"></div>
+          <div class="logo-box"><img src="assets/client-2.png" alt="Client logo"></div>
+          <div class="logo-box"><img src="assets/client-3.png" alt="Client logo"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNOLOGY PARTNERS -->
+    <section class="section section--light logos">
+      <div class="container logos__inner">
+        <div class="description description--center">
+          <span class="tag tag--white"><img src="assets/icon-subheading-a.svg" alt="" width="22" height="17">Partners &amp; Accreditations</span>
+          <h2>Technology Partners &amp; <em>Recognition</em></h2>
+          <p class="text">Our technology partners and recognitions showcase our dedication to quality, innovation, and trusted solution delivery</p>
+        </div>
+        <div class="logos__row logos__row--white">
+          <div class="logo-box"><img src="assets/hitachi.png" alt="Hitachi"></div>
+          <div class="logo-box"><img src="assets/microsoft.png" alt="Microsoft"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer__top">
+        <img src="assets/logo-footer.svg" alt="GreenMe" width="78" height="80">
+        <div class="footer__contact">
+          <div class="contact-item">
+            <span class="contact-item__icon"><img src="assets/pin.svg" alt="" width="24" height="30"></span>
+            <address>Office 1125, 11, Al Maqam Tower,<br>Abu Dhabi United Arab</address>
+          </div>
+          <div class="contact-item">
+            <span class="contact-item__icon"><img src="assets/phone.svg" alt="" width="30" height="30"></span>
+            <a href="tel:+971501712031">+(971) 501 712 031</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-item__icon"><img src="assets/mail.svg" alt="" width="30" height="21"></span>
+            <a href="mailto:info@greenmeapp.com">info@greenmeapp.com</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__menu">
+        <div class="footer__about">
+          <h4>About GreenMe</h4>
+          <p>We are a fintech platform that facilitates green financing arrangements offering an end-to-end basis from transaction identification to implementation, long term financing, operation, and maintenance</p>
+          <div class="social">
+            <a href="#" aria-label="Facebook"><img src="assets/facebook.svg" alt="" width="10" height="20"></a>
+            <a href="#" aria-label="LinkedIn"><img src="assets/linkedin.svg" alt="" width="18" height="18"></a>
+          </div>
+        </div>
+
+        <div class="footer__links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About GreenMe</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#platform">The Platform</a></li>
+            <li><a href="#teams">Teams</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__news">
+          <h4>Newsletter</h4>
+          <p>Subscribe our newsletter to get the latest news and update delivered monthly</p>
+          <form class="newsletter" action="#" onsubmit="return false">
+            <input type="email" placeholder="Enter Your Email" aria-label="Email address" required>
+            <button type="submit" class="btn btn--green">Subscribe Now</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer__bottom">© Copyright 2026. All Rights Reserved by Gemini Media</div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var r = document.getElementById('bill');
+      var fmt = function (n) { return Math.round(n).toLocaleString('en-US') + ' EGP'; };
+      function update() {
+        var bill = +r.value, year = bill * 0.3 * 12;
+        document.getElementById('bill-out').textContent = fmt(bill);
+        document.getElementById('save-year').textContent = fmt(year);
+        document.getElementById('save-decade').textContent = fmt(year * 10);
+        r.style.setProperty('--fill', ((bill - r.min) / (r.max - r.min) * 100) + '%');
+      }
+      r.addEventListener('input', update);
+      update();
+    })();
+  </script>
+</body>
+</html>
